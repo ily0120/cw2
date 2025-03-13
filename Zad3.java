@@ -21,6 +21,7 @@ public class Zad3 {
             return array;
         }
 
+
         int[] rotatedArray = new int[n];
         for (int i = 0; i < positions; i++) {
             rotatedArray[i] = array[n - positions + i];
